@@ -1,7 +1,5 @@
 package application;
-	
-import java.nio.file.Paths;
-import java.util.LinkedList;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -29,7 +27,8 @@ public class Main extends Application
 		
 		try 
 		{
-			primaryStage.getIcons().add(new Image("Images\\FileIcon.png"));
+			
+			primaryStage.getIcons().add(new Image("Images/FileIcon.png"));
 			
 			searchEngine = new SearchEngine();
 			displayItems = new DisplayItems();
@@ -49,7 +48,7 @@ public class Main extends Application
 		} 
 		catch(Exception e) 
 		{
-			InfoWindow.showError("Ошибка : " + e);
+			InfoWindow.showError("Ошибка :блин " + e);
 			e.printStackTrace();
 		}
 	}

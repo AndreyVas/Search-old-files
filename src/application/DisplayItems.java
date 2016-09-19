@@ -28,7 +28,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.DirectoryChooser;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class DisplayItems 
@@ -207,13 +206,12 @@ public class DisplayItems
 		
 		switch(ext)
 		{
-
 			case ".doc":
 			case ".docx":
 			case ".docm":
 			case ".dotx":
 			case ".dotm":
-				im = new ImageView("Images\\Word.png");
+				im = new ImageView("Images/Word.png");
 				break;
 				
 			case ".xls":
@@ -225,7 +223,7 @@ public class DisplayItems
 			case ".xlam":
 			case ".xla":
 			case ".xlt":
-				im = new ImageView("Images\\Excel.png");
+				im = new ImageView("Images/Excel.png");
 				break;
 				
 			case ".pptx":
@@ -239,12 +237,12 @@ public class DisplayItems
 			case ".potm":
 			case ".ppam":
 			case ".ppa":
-				im = new ImageView("Images\\PowerPoint.png");
+				im = new ImageView("Images/PowerPoint.png");
 				break;
 				
 			case ".mdb":
 			case ".accdb":
-				im = new ImageView("Images\\Access.png");
+				im = new ImageView("Images/Access.png");
 				break;
 				
 			case ".vsd":
@@ -256,22 +254,22 @@ public class DisplayItems
 			case ".vsl":
 			case ".vsdx":
 			case ".vsdm":
-				im = new ImageView("Images\\Visio.png");
+				im = new ImageView("Images/Visio.png");
 				break;
 	
 			case ".pst":
 			case ".ost":
-				im = new ImageView("Images\\Outlook.png");
+				im = new ImageView("Images/Outlook.png");
 				break;
 
 			case ".mpp":
-				im = new ImageView("Images\\Project.png");
+				im = new ImageView("Images/Project.png");
 				break;
 
 			case ".wav":
 			case ".mid":
 			case ".mp3":
-				im = new ImageView("Images\\Audio.png");
+				im = new ImageView("Images/Audio.png");
 				break;
 				
 			case ".mkv":
@@ -280,11 +278,11 @@ public class DisplayItems
 			case ".mpeg":
 			case ".mpg":
 			case ".vcd":
-				im = new ImageView("Images\\Video.png");
+				im = new ImageView("Images/Video.png");
 				break;
 				
 			case ".pdf":
-				im = new ImageView("Images\\Pdf.png");
+				im = new ImageView("Images/Pdf.png");
 				break;
 				
 			case ".jpg":
@@ -292,11 +290,11 @@ public class DisplayItems
 			case ".png":
 			case ".bmp":
 			case ".gif":
-				im = new ImageView("Images\\Image.png");
+				im = new ImageView("Images/Image.png");
 				break;
 				
 			default:
-				im = new ImageView("Images\\File.png");
+				im = new ImageView("Images/File.png");
 				
 		}
 		return im;
