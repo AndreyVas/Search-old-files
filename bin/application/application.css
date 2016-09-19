@@ -1,0 +1,171 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root
+{
+	-fx-background-color:white;	
+}
+
+.scrollPane
+{
+	-fx-background-color:white;	
+}
+
+.scrollPane .viewport{
+   -fx-background-color:white;	
+}
+
+
+.scrollPane .content{
+   -fx-background-color:white;	
+   
+    
+}
+.item
+{
+	-fx-padding:2px 0px 2px 0px;
+}
+.item:hover
+{
+	-fx-background-color: beige ;
+}
+
+.icon
+{
+	-fx-pref-width:26px;
+	-fx-label-padding:0px 5px 0px 5px;
+}
+
+.name
+{
+	-fx-pref-width:150px;
+	-fx-font-size:14px;
+}
+
+.path
+{
+	-fx-pref-width:250px;
+	-fx-font-size:14px;
+}
+
+.showInFolder
+{
+	-fx-pref-width:130px;
+	-fx-font-size:14px;
+	-fx-background-color:transparent;	
+	-fx-border-width: 1px;
+	-fx-border-color:black ;
+	-fx-border-radius:5px;
+	-fx-border-insets:0px 4px 0px 4px;
+
+}
+
+.delete
+{
+	-fx-pref-width:80px;
+	-fx-font-size:14px;
+	-fx-background-color:transparent;	
+	-fx-border-width: 1px;
+	-fx-border-color:black ;
+	-fx-border-radius:5px;
+}
+
+.delete:hover
+{
+	-fx-cursor:hand;
+}
+
+.showInFolderLabel
+{
+	-fx-pref-width:130px;
+	-fx-font-size:14px;
+}
+
+.showInFolder:hover
+{
+	-fx-cursor:hand;
+}
+
+
+.deleteLabel
+{
+	-fx-pref-width:80px;
+	-fx-font-size:14px;
+}
+
+.lastModifiedDate
+{
+	-fx-pref-width:100px;
+	-fx-font-size:14px;
+}
+
+
+
+.lastAccessDate
+{
+	-fx-pref-width:100px;
+	-fx-font-size:14px;
+}
+
+.creationDate
+{
+	-fx-pref-width:100px;
+	-fx-font-size:14px;
+}
+
+.itemsHeadCont
+{
+	-fx-padding: 10px;
+	-fx-pref-height:40px;
+}
+
+/*----------------------chooise items---------------------- */
+
+.chooseLabel
+{
+	-fx-pref-width:250px;
+	-fx-pref-height:40px;
+	-fx-font-size:16px;
+	-fx-label-padding:0px 0px 0px 10px;
+	-fx-text-alignment:center;
+	
+}
+
+.chooseBox
+{
+	-fx-pref-width:250px;
+	-fx-pref-height:40px;
+	-fx-font-size:16px;
+	-fx-text-alignment:center;
+	-fx-background-color:white ;
+	-fx-border-width: 1px;
+	-fx-border-color:black ;
+	-fx-border-radius:5px;
+}
+
+.chooseBox:hover
+{
+	-fx-background-color: beige ;
+	-fx-cursor:hand;
+}
+.chooseButton
+{
+	-fx-pref-width:100px;
+	-fx-pref-height:80px;
+	-fx-font-size:16px;
+	-fx-text-alignment:center;
+	-fx-background-color:white ;
+	-fx-border-width: 1px;
+	-fx-border-color:black ;
+	-fx-border-radius:5px;
+}
+
+.chooseButton:hover
+{
+	-fx-background-color: beige ;
+	-fx-cursor:hand;
+}
+
+.gag
+{
+	-fx-pref-width:260px;
+	-fx-label-padding:10px 10px 10px 10px;
+}
